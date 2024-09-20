@@ -13,7 +13,7 @@ const Home = () => {
     const [todos, setTodos] = useState<Todo[]>([]);
     const [newTodo, setNewTodo] = useState<string>('');
     const [newPriority, setNewPriority] = useState<number>(0);
-    const apiUrl = 'https://crudcrud.com/api/f9d76df4cd7c493a892efd68015fe275/todos';
+    const apiUrl = 'https://crudcrud.com/api/ef1dbedd7bbf4fd9b3ff75a715534d85/todos';
 
     useEffect(() => {
         fetchTodos();
